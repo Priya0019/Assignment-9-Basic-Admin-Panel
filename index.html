@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Data page</title>
+</head>
+
+<body>
+
+    <div id="overlay">
+        <img src="./img/preloader.gif" alt="Preloader icon" />
+    </div>
+
+    <main>
+
+        <div id="table-section">
+
+            <form action="/">
+                <img src='./search icon.jpg.jpeg' alt="Search Icon" />
+                <input type="text" placeholder="Enter something" name="search-box" id="search-box" value="" />
+            </form>
+
+            <div id="table-wrapper">
+
+                <div id="table-headers">
+                    <table id="table-data2">
+                        <thead>
+                            <tr id="fix">
+                                <th class="column1">Id</th>
+                                <th class="column2">FirstName</th>
+                                <th class="column3">LastName</th>
+                                <th class="column4">Email</th>
+                                <th class="column5">Phone</th>
+                            </tr>
+                        </thead>
+                    
+                
+
+                <div id="table-data">
+                    <!-- <table id="table-data2"> </div></table>-->
+                        <tbody>
+                          
+
+                        </tbody>
+                    </table>
+                </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Details box -->
+
+        <div id="info-wrapper">
+            <h1>Details</h1>
+            <p>Click on a table item to get detailed information</p>
+            <div id="info-content">
+                <div><b>User selected:</b> <span id="full_name"></span></div>
+                <div>
+                    <b>Description: </b>
+                    <textarea cols="50" rows="5" readonly id="full_des">
+                        
+                    </textarea>
+                </div>
+                <div><b>Address:</b> <span id="street"></span></div>
+                <div><b>City:</b> <span id="city"></span></div>
+                <div><b>State:</b> <span id="state"></span></div>
+                <div><b>Zip:</b> <span id="pin"></span></div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
